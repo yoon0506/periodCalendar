@@ -32,7 +32,8 @@ class ActivityMain : AppCompatActivity() {
                 val navController = navHostFragment.navController
                 val appBarConfiguration = AppBarConfiguration(
                     setOf(
-                        R.id.fragCalendar
+                        R.id.fragCalendar,
+                        R.id.fragCollapsibleCalendar
                     )
                 )
                 setupActionBarWithNavController(navController, appBarConfiguration)

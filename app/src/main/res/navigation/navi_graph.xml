@@ -10,6 +10,19 @@
         android:name="com.yoon.periodcalendar.CalendarFragment"
         android:label="캘린더"
         tools:layout="@layout/fragment_calendar"/>
+
+    <fragment
+        android:id="@+id/fragGitCollapsibleCalendar"
+        android:name="com.yoon.periodcalendar.GitCollapsibleCalendarFragment"
+        android:label="깃 접히는 캘린더"
+        tools:layout="@layout/git_fragment_collapsible_calendar"/>
+
+    <fragment
+        android:id="@+id/fragCollapsibleCalendar"
+        android:name="com.yoon.periodcalendar.CollapsibleCalendarFragment"
+        android:label="접히는 캘린더"
+        tools:layout="@layout/fragment_collapsible_calendar"/>
+
     <fragment
         android:id="@+id/fragCalendarDetail"
         android:name="com.yoon.periodcalendar.CalendarDetailFragment"

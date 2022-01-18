@@ -3,11 +3,14 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="../../../../layout/custom_preview.xml" value="0.2578125" />
         <entry key="app/src/main/res/drawable/navi_color.xml" value="0.22604166666666667" />
         <entry key="app/src/main/res/layout/activity_main.xml" value="0.20572916666666666" />
         <entry key="app/src/main/res/layout/custom_calendar_day_view.xml" value="0.20572916666666666" />
         <entry key="app/src/main/res/layout/fragment_calendar.xml" value="0.1890625" />
         <entry key="app/src/main/res/layout/fragment_calendar_detail.xml" value="0.20572916666666666" />
+        <entry key="app/src/main/res/layout/fragment_collapsible_calendar.xml" value="0.33" />
+        <entry key="app/src/main/res/layout/git_fragment_collapsible_calendar.xml" value="0.275" />
         <entry key="app/src/main/res/menu/menu.xml" value="0.20572916666666666" />
       </map>
     </option>

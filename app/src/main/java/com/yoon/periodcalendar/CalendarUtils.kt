@@ -76,6 +76,10 @@ class CalendarUtils {
         fun isSameMonth(first: DateTime, second: DateTime): Boolean =
             first.year == second.year && first.monthOfYear == second.monthOfYear
 
+        fun isSameDate(first: DateTime, second: DateTime): Boolean {
+            return first.year == second.year && first.monthOfYear == second.monthOfYear && first.dayOfMonth == second.dayOfMonth
+        }
+
         fun intToDateTime(date: Int): DateTime {
             val dateFormat: DateFormat = SimpleDateFormat("yyyyMMdd")
             return DateTime(dateFormat.parse(date.toString()).time)

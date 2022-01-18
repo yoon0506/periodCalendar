@@ -70,4 +70,7 @@ dependencies {
     implementation "androidx.viewpager2:viewpager2:1.0.0"
     implementation 'joda-time:joda-time:2.10.6'
 
+    // Collapsible CalendarView
+    implementation 'com.github.shrikanth7698:Collapsible-Calendar-View-Android:v1.0.0'
+
 }

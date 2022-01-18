@@ -5,5 +5,9 @@
         android:id="@+id/fragCalendar"
         android:icon="@drawable/ic_calendar"
         android:title="달력" />
+    <item
+        android:id="@+id/fragCollapsibleCalendar"
+        android:icon="@drawable/ic_calendar"
+        android:title="접는 달력" />
 
 </menu>
